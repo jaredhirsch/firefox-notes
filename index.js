@@ -5,13 +5,21 @@
  */
 
 const sidebar = require('sdk/ui/sidebar').Sidebar({
-  id: 'my-sidebar',
+  id: 'ffnotes-sidebar',
   title: 'Notes are fun wheeee 😂  ',
   url: require('sdk/self').data.url('sidebar.html')
 });
 
-// for now, just show it in the current window after 10 seconds
-const { setTimeout } = require('sdk/timers');
-setTimeout(() => {
-  sidebar.show();
-}, 10 * 1000);
+// menubar button toggles visibility of notes sidebar
+const toggleButton = require('sdk/ui').ToggleButton({
+  id: 'ffnotes-btn',
+  label: 'Toggle Firefox Notes sidebar',
+  icon: {
+    '16': './ff-notes-16.png',
+    '32': './ff-notes-32.png'
+  },
+  // implicitly tracking state in the UI, for the moment
+  onChange: (state) => {
+    state.checked ? sidebar.show() : sidebar.hide();
+  }
+});
