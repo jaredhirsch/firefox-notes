@@ -1,0 +1,15 @@
+{
+  "title": "Firefox Notes",
+  "name": "6a68-firefox-notes",
+  "version": "0.0.1",
+  "description": "Yo dawg I heard you like documents, so I put a document next to your document so you can surf while you surf",
+  "main": "index.js",
+  "author": "jared hirsch <ohai@6a68.net>",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "jetpack"
+  ]
+}
