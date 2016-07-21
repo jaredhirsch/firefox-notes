@@ -1,9 +1,17 @@
-var self = require("sdk/self");
+/*
+ * This Source Code is subject to the terms of the Mozilla Public License
+ * version 2.0 (the 'License'). You can obtain a copy of the License at
+ * http://mozilla.org/MPL/2.0/.
+ */
 
-// a dummy function, to show how tests work.
-// to see how to test this function, look at test/test-index.js
-function dummy(text, callback) {
-  callback(text);
-}
+const sidebar = require('sdk/ui/sidebar').Sidebar({
+  id: 'my-sidebar',
+  title: 'Notes are fun wheeee 😂  ',
+  url: require('sdk/self').data.url('sidebar.html')
+});
 
-exports.dummy = dummy;
+// for now, just show it in the current window after 10 seconds
+const { setTimeout } = require('sdk/timers');
+setTimeout(() => {
+  sidebar.show();
+}, 10 * 1000);
