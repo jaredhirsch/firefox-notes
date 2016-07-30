@@ -26,9 +26,9 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 - The name **hacker mode** is important: we are reappropriating the term and restoring its original meaning. Hacking is about tinkering: harmless learning, creativity, fun. The name will create buzz in the short term, and hopefully help reshape the connotations of the word 'hacker' in the long term.
 
 ### Free self-publishing: notes are HTML, so serve them from Firefox
-- Integrate a simple HTTPS web server (many add-ons do this already)
+- Integrate a simple HTTPS web server (there's a web server in FF: [httpd.js](https://dxr.mozilla.org/mozilla-central/source/netwerk/test/httpserver/))
 - Simple UI to mark notes as public
-- Fight the culture of corporate silos
+- UI wizard/flow to investigate network configuration
 - User-friendly domain registration: HTTPS everywhere + domain registrar integration/DNS configuration
 
 
