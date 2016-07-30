@@ -34,9 +34,9 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 
 That's it for the major features :-)
 
-## Other notes
+### Other stuff
 
-### Integration with other Firefox features / Mozilla projects:
+#### Integration with other Firefox features / Mozilla projects:
 - Context graph (browser search / history): register `notes:` custom protocol with urlbar
   - Notes are addressable local web pages with URLs like `notes:Summer Travel Planning`
   - Notes are HTML, so editing notes will create visits in browser history
@@ -48,7 +48,7 @@ That's it for the major features :-)
 - possible MDN integration into IDE
 - Webmaker / Mozilla Learning / Teach the Web could use FF Notes (+ a custom plugin) as a universal toolkit for learning to code
 
-### Represents Mozilla mission / values 
+#### Represents Mozilla mission / values 
 - Promote web literacy & coding skills globally
 - Democratize web publishing
 - Provide a decentralized alternative to corporate social / blogging silos
