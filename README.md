@@ -44,3 +44,4 @@ That's it for the major features :-)
 - Sync 2.0 for profile-based secure cloud backups?
 - possible MDN integration into IDE
 - Webmaker / Mozilla Learning / Teach the Web could use FF Notes (+ a custom plugin) as a universal toolkit for learning to code
+- Decentralized alternative to corporate silos as web publishing platforms 
