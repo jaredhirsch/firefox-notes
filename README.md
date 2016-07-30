@@ -2,7 +2,7 @@
 
 Firefox Notes: take notes, self-publish notes using a web server in FF, and learn to code along the way
 
-## Basic mode: take notes as you browse the web
+### Basic mode: take notes as you browse the web
 - Rich text editor in a sidebar
 - Saved as HTML files
   - notes are partials inserted inside a default styled page template; basic mode users only edit content inside a container element
@@ -18,22 +18,25 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 - Security story: use third-party tools to encrypt the files on disk (total user choice)
 - Bridge to open source: HTML files in a directory, would be easy to turn into a git repo (SUMO page or programmatically)
 
-## **Hacker mode**: full-fledged html/js/css editor using devtools as an IDE
+### **Hacker mode**: full-fledged html/js/css editor using devtools as an IDE
 - Help menu: integrate Mozilla Learning content
 - Newb hackers could edit the default page styles / template, or add third-party snippets for comments, social sharing, analytics, ads
 - Intermediate hackers could add jQuery and various jQuery plugins to change the notes' behavior
 - Advanced hackers could use a single-page framework like React to serve notes
 - The name **hacker mode** is important: we are reappropriating the term and restoring its original meaning. Hacking is about tinkering: harmless learning, creativity, fun. The name will create buzz in the short term, and hopefully help reshape the connotations of the word 'hacker' in the long term.
 
-## Free self-publishing: notes are HTML, so serve them from Firefox
+### Free self-publishing: notes are HTML, so serve them from Firefox
 - Integrate a simple HTTPS web server (many add-ons do this already)
 - Simple UI to mark notes as public
 - Fight the culture of corporate silos
 - User-friendly domain registration: HTTPS everywhere + domain registrar integration/DNS configuration
 
+
 That's it for the major features :-)
 
-## Integration with other Firefox features / Mozilla projects:
+## Other notes
+
+### Integration with other Firefox features / Mozilla projects:
 - Context graph (browser search / history): register `notes:` custom protocol with urlbar
   - Notes are addressable local web pages with URLs like `notes:Summer Travel Planning`
   - Notes are HTML, so editing notes will create visits in browser history
@@ -45,8 +48,8 @@ That's it for the major features :-)
 - possible MDN integration into IDE
 - Webmaker / Mozilla Learning / Teach the Web could use FF Notes (+ a custom plugin) as a universal toolkit for learning to code
 
-## Mozilla mission / values 
+### Represents Mozilla mission / values 
 - Promote web literacy & coding skills globally
 - Democratize web publishing
-- Decentralized alternative to corporate social / blogging platforms
+- Provide a decentralized alternative to corporate social / blogging silos
 - And, a browser feature that's genuinely useful for all kinds of people
