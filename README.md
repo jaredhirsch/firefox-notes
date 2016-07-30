@@ -23,7 +23,7 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 - Newb hackers could edit the default page styles / template, or add third-party snippets for comments, social sharing, analytics, ads
 - Intermediate hackers could add jQuery and various jQuery plugins to change the notes' behavior
 - Advanced hackers could use a single-page framework like React to serve notes
-- The name **hacker mode** is important: we are reappropriating the term and restoring its original meaning. Hacking is about tinkering: harmless learning, creativity, fun. The name will create buzz in the short term, and reshape the connotations of the word 'hacker' in the long term. (Facebook has also pushed back against the negative meaning of this term in popular culture.)
+- The name **hacker mode** is important: we are reappropriating the term and restoring its original meaning. Hacking is about tinkering: harmless learning, creativity, fun. The name will create buzz in the short term, and hopefully help reshape the connotations of the word 'hacker' in the long term.
 
 ## Free self-publishing: notes are HTML, so serve them from Firefox
 - Integrate a simple HTTPS web server (many add-ons do this already)
