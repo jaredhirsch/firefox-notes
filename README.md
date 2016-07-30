@@ -31,7 +31,9 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 - Fight the culture of corporate silos
 - User-friendly domain registration: HTTPS everywhere + domain registrar integration/DNS configuration
 
-### Integration with other Firefox features / Mozilla projects:
+That's it for the major features :-)
+
+## Integration with other Firefox features / Mozilla projects:
 - Context graph (browser search / history): register `notes:` custom protocol with urlbar
   - Notes are addressable local web pages with URLs like `notes:Summer Travel Planning`
   - Notes are HTML, so editing notes will create visits in browser history
@@ -40,5 +42,5 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
   - Integrates naturally into activity stream
 - Devtools integration as IDE
 - Sync 2.0 for profile-based secure cloud backups?
-- possible MDN integration into IDE search
+- possible MDN integration into IDE
 - Webmaker / Mozilla Learning / Teach the Web could use FF Notes (+ a custom plugin) as a universal toolkit for learning to code
