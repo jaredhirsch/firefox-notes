@@ -1,6 +1,6 @@
 # firefox-notes
 
-Firefox Notes: take notes, self-publish notes using a web server in FF, and learn to code along the way
+## Firefox Notes: take notes, self-publish notes using a web server in FF, and learn to code along the way
 
 ### Basic mode: take notes as you browse the web
 - Rich text editor in a sidebar
@@ -19,16 +19,17 @@ Firefox Notes: take notes, self-publish notes using a web server in FF, and lear
 - Bridge to open source: HTML files in a directory, would be easy to turn into a git repo (SUMO page or programmatically)
 
 ### **Hacker mode**: full-fledged html/js/css editor using devtools as an IDE
-- Help menu: integrate Mozilla Learning content
+- Click a 'hacker mode' button to switch from simple text input to devtools IDE
 - Newb hackers could edit the default page styles / template, or add third-party snippets for comments, social sharing, analytics, ads
 - Intermediate hackers could add jQuery and various jQuery plugins to change the notes' behavior
 - Advanced hackers could use a single-page framework like React to serve notes
+- Help menu: integrate Mozilla Learning content
 - The name **hacker mode** is important: we are reappropriating the term and restoring its original meaning. Hacking is about tinkering: harmless learning, creativity, fun. The name will create buzz in the short term, and hopefully help reshape the connotations of the word 'hacker' in the long term.
 
 ### Free self-publishing: notes are HTML, so serve them from Firefox
 - Integrate a simple HTTPS web server (there's a web server in FF: [httpd.js](https://dxr.mozilla.org/mozilla-central/source/netwerk/test/httpserver/))
-- Simple UI to mark notes as public
-- UI wizard/flow to investigate network configuration
+- UI to mark notes as public
+- network configuration to open ports seems hard; UI wizard/flow to investigate network configuration could at least help users get started
 - User-friendly domain registration: HTTPS everywhere + domain registrar integration/DNS configuration
 
 
